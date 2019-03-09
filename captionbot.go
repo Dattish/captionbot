@@ -2,15 +2,15 @@ package captionbot
 
 import (
 	"bytes"
-	"mime/multipart"
-	"os"
-	"io"
-	"net/http"
-	"fmt"
-	"net/textproto"
-	"strings"
 	"encoding/json"
+	"fmt"
+	"io"
+	"mime/multipart"
+	"net/http"
+	"net/textproto"
+	"os"
 	"strconv"
+	"strings"
 )
 
 const (
@@ -20,7 +20,7 @@ const (
 )
 
 type request struct {
-	Type string
+	Type    string
 	Content string
 }
 
