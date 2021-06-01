@@ -20,7 +20,7 @@ const (
 )
 
 type request struct {
-	Type string
+	Type    string
 	Content string
 }
 
