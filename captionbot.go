@@ -2,21 +2,21 @@ package captionbot
 
 import (
 	"bytes"
-	"mime/multipart"
-	"os"
-	"io"
-	"net/http"
-	"fmt"
-	"net/textproto"
-	"strings"
 	"encoding/json"
+	"fmt"
+	"io"
+	"mime/multipart"
+	"net/http"
+	"net/textproto"
+	"os"
 	"strconv"
+	"strings"
 )
 
 const (
 	fileRequestUrl = "https://www.captionbot.ai/api/upload"
-	urlRequestUrl  = "https://captionbot.azurewebsites.net/api/messages"
-	rateRequestUrl = "https://captionbot.azurewebsites.net/api/messages"
+	urlRequestUrl  = "https://captionbot2.azurewebsites.net/api/messages"
+	rateRequestUrl = "https://captionbot2.azurewebsites.net/api/messages"
 )
 
 type request struct {
